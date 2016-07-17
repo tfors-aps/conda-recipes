@@ -6,8 +6,14 @@ source:
   git_url: https://github.com/steveicarus/iverilog.git
   git_tag: v10_1
 
+requirements:
+  build:
+    - zlib
+    - readline
+
 build:
   number: 0
+  detect_binary_files_with_prefix: True
 
 about:
   home: http://iverilog.icarus.com/home

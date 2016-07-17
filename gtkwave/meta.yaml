@@ -13,6 +13,11 @@ build:
   number: 0
 
 # Requires gtk2 and pkg-config from some other platform package manager
+requirements:
+  build:
+    - zlib
+  run:
+    - zlib
 
 about:
   home: http://gtkwave.sourceforge.net/
